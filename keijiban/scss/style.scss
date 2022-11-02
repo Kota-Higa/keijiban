@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+
+.main-container{
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: aquamarine;
+
+  .main-title{
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size:24px;
+    color:#000;
+    
+  }
+  
+}
+
+
+
+form{
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  
+  .user-name{
+    width:324px;
+    height:24px;
+    border-radius:5px;
+    margin-bottom:8px;
+  }
+  .message{
+    width:324px;
+    height:24px;
+    border-radius:5px;
+    margin-bottom:8px;
+  }
+  
+  .password{
+    width:324px;
+    height:16px;
+    border-radius:5px;
+    margin-bottom:24px;
+  }
+}
+
+
+
+
+
+.php{
+  font-family:sans-serif;
+  font-weight:bold;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+body{
+  background-color: aquamarine;
+}
