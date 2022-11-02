@@ -20,10 +20,10 @@
     <?php
         //データベース名
         // DB接続設定
-        $dsn ='mysql:host=localhost;dbname=keijiban;charset=utf8';
+        $dsn ='データベース名';
         //ユーザー名
-        $user ='forum_user';
-        $pass ='Kota0610';
+        $user ='ユーザー名';
+        $pass ='パスワード';
         $pdo = new PDO($dsn,$user,$pass,array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 
         //テーブル作成
